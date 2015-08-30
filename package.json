@@ -4,12 +4,16 @@
   "description": "burp",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch scss/main.scss:css/main.css",
+    "start": "browser-sync start --server --files *.html,css/*.css,js/*.js"
   },
   "author": "chacon.cristina@gmail.com",
   "license": "ISC",
   "dependencies": {
     "jquery": "^2.1.4",
     "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.2"
   }
 }
