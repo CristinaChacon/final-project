@@ -1,7 +1,6 @@
 body {
   font-family: Lora;
   font-weight: 700;
-  background-color: #ccc;
 }
 
 .contain-to-grid, 
@@ -21,4 +20,12 @@ body {
 	position: absolute;
 	top: 2.35em;
 	right: 0.5em;
+}
+
+.row {
+	padding: 0;
+}
+
+.columns {
+	padding: 0;
 }
