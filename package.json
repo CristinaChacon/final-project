@@ -10,6 +10,7 @@
   "author": "chacon.cristina@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "foundation-sites": "^5.5.2",
     "jquery": "^2.1.4",
     "normalize.css": "^3.0.3"
   },
