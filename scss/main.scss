@@ -1,6 +1,29 @@
 body {
 }
 
+h2 {
+	font-family: 'Lora', Arial, sans-serif;
+	font-weight: 700;
+	color: #414042;
+	font-size: 2em;
+	text-align: center;
+	margin: 50px;
+}
+
+h3 {
+	font-family: 'Lora', Arial, sans-serif;
+	font-weight: 700;
+	color: #414042;
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Lora', Arial, sans-serif;
+	font-weight: 700;
+	color: #414042;
+	font-size: 1em;
+}
+
 .contain-to-grid, 
 .top-bar {
   background-color: white;
@@ -28,6 +51,35 @@ body {
 	padding: 30px 15px 0;
 }
 
+.recipe {
+	border: solid 3px #414042;
+	margin: 50px;
+	padding: 50px;
+}
+
+.list{
+	font-family: 'Lora', Arial, serif;
+	font-weight: 700;
+	color: #414042;
+	font-size: 1em;
+}
+
+.fa {
+	color: #414042;
+	padding-right: 10px;
+}
+
+.copyright {
+	display: block;
+	font-family: 'Noto Sans', Arial, sans-serif;
+	font-weight: 400;
+	color: #ccc;
+	font-size: 0.5em;
+	vertical-align: middle;
+	text-align: center;
+	padding: 8px;
+}
+
 .footer {
 	display: absolute;
 	width: 100%;
@@ -36,12 +88,17 @@ body {
 	margin-top: 30px;
 }
 
-.copyright {
-	display: block;
-	font-family: 'Noto Sans', Arial, sans-serif;
-	font-weight: 700;
-	color: #fff;
-	font-size: 0.5em;
-	vertical-align: middle;
-	text-align: center;
-}
+// .container {
+// 	position: relative;
+// }
+
+// .overlay{
+// 	position: absolute;
+// 	padding: 0;
+// 	top: 50%;
+// 	right: 80px;
+// 	color: #ccc;
+// }
+
+
+
