@@ -93,6 +93,7 @@ p {
 .temp {
 	width: 200px;
 	height: 200px;
+	background-color: pink;
 }
 
 .overlay-wrapper {
@@ -145,6 +146,25 @@ p {
 .overlay,
 .overlay-expand {
 	transition: all 0.5s;
+}
+
+.match-height-box {
+	position: relative;
+	width: 100%;
+}
+
+.match-height-box:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.match-height-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
 
